@@ -1,0 +1,94 @@
+body{
+  border: 1px solid black;
+  height: 520px;
+  width: 1000px;
+  position: relative;
+  left: 250px;
+}
+
+#heading{
+background-color: #E3B7A0;
+}
+
+#hr-border{
+  border-bottom: solid black;
+  border-top-width: 0px;
+  border-bottom-width: 2px;
+}
+
+#main-heading{
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#form{
+  border: 1px solid black;
+  margin-left: 10px;
+  padding-left: 8px;
+  padding-top: 8px;
+  height: 280px;
+  width: 200px
+}
+
+#form .field{
+  width: 170.4px;
+}
+
+#range{
+  border: 1px solid black;
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 8px;
+  height: 100px;
+  width: 187px
+}
+
+.outer-div{
+  display: inline-flex;
+  margin-left: 3%
+}
+
+.right-Box1{
+  border: 1px solid black;
+  height: 50px;
+  width: 650px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.right-Box2{
+  border: 1px solid black;
+  height: 100px;
+  width: 650px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.right-Box3{
+  border: 1px solid black;
+  height: 100px;
+  width: 650px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.right-Box4{
+  border: 1px solid black;
+  height: 100px;
+  width: 650px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.column-2{
+  position: relative;
+  left: 60px;
+  top: 24px;
+  font-size: 15px;
+}
+
+.column-3{
+  position: relative;
+  left: 150px;
+}

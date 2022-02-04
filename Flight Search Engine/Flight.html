@@ -1,0 +1,156 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flight Search Engine</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div style="background-color: #FFEDDB; height: 520px">
+    <div id="heading">
+      <h1 id="main-heading">Flight Search Engine</h1>
+      <hr id="hr-border">                   <!--  Horizontal border -->
+    </div>
+                                            <!-- Type of Trip -->
+    <div class="outer-div">
+      <div>
+        <div id="form">                     <!-- Form -->
+        <form>
+          One way<input type="radio" id="one-way" onclick="oneWay()" name="check"> Return <input type="radio" id="return" onclick="returnWay()" name="check">
+                                            <!-- Cities -->
+          <input style="margin-top:15px" class="field" type="text" placeholder="Enter Origin city"><br><br>
+          <input class="field" type="text" placeholder="Enter Destination city"><br><br><br>
+
+                                            <!-- Passengers -->
+          <input style="position: relative; bottom: 20px; width: 170.4px" type="number" min="1" max="20" placeholder="Passengers"><br>
+
+                                            <!-- Dates -->
+          <span style="margin: 0px; font-size:14px; position: relative; bottom: 10px">
+          Departure Date</span>
+          <input style="position: relative; bottom: 10px; width: 170.4px" type="date"><br><br>
+          <div id="hide">
+          <span style="margin: 0px; font-size:14px; position: relative; bottom: 20px">
+          Return Date</span>
+          <input style="position: relative; bottom: 20px; width: 170.4px" id="return" type="date"><br><br>
+          </div>
+                                            <!-- search-button -->
+          <input style="position: relative; bottom: 25px"; type="button" value="Search...">
+        </form><br><br>
+      </div><br>
+                                            <!-- range -->
+      <div id="range">
+          <label>Refine flight search</label><br><br><br>
+          0<input type="range">10000
+        </div>
+    </div>
+                                            <!-- right side boxes -->
+    <div>
+      <div class="right-Box1">
+        <h3 style="font-size: 30; margin-top: 6px">Pune > Delhi > Pune</h3>
+      </div><br>
+      <div class="right-Box2">
+        <table style="padding-left: 15px">
+            <tbody style="font-size: 12px; width: 140%; display: inline-flex">
+                   <tr>
+                     <td>
+                       <span style="font-size: 18px"><b>Rs. 9500</b></span></br><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">AI-202</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">PNQ > DEL</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">Depart: 10.00 AM</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">Arrive: 12.00 PM</span>
+                     </td>
+                  </tr>
+                  <tr class="column-2">
+                    <td>
+                      <span>AI-202</span><br>
+                      <span>PNQ > DEL</span><br>
+                      <span>Depart: 10.00 AM</span><br>
+                      <span>Arrive: 12.00 PM</span>
+                    </td>
+                 </tr>
+                 <tr class="column-3">
+                   <td>
+                     <img style="height: 70px; width: 107px" src="book_flight.jpg" alt=""><br>
+                     <button type="button" name="button" >Book your flight</button>
+                   </td>
+                 </tr>
+            </tbody>
+        </table>
+       </div><br>
+      <div class="right-Box3">
+        <table style="padding-left: 15px">
+            <tbody style="font-size: 12px; width: 140%; display: inline-flex">
+                   <tr>
+                     <td>
+                       <span style="font-size: 18px"><b>Rs. 9500</b></span></br><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">AI-202</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">PNQ > DEL</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">Depart: 10.00 AM</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">Arrive: 12.00 PM</span>
+                     </td>
+                  </tr>
+                  <tr class="column-2">
+                    <td>
+                      <span>AI-202</span><br>
+                      <span>PNQ > DEL</span><br>
+                      <span>Depart: 10.00 AM</span><br>
+                      <span>Arrive: 12.00 PM</span>
+                    </td>
+                 </tr>
+                 <tr class="column-3">
+                   <td>
+                     <img style="height: 70px; width: 107px" src="book_flight.jpg" alt=""><br>
+                     <button type="button" name="button" >Book your flight</button>
+                   </td>
+                 </tr>
+            </tbody>
+        </table>
+      </div><br>
+      <div class="right-Box4">
+        <table style="padding-left: 15px">
+            <tbody style="font-size: 12px; width: 140%; display: inline-flex">
+                   <tr>
+                     <td>
+                       <span style="font-size: 18px"><b>Rs. 9500</b></span></br><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">AI-202</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">PNQ > DEL</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">Depart: 10.00 AM</span><br>
+                       <span style="position: relative; bottom: 10px; font-size: 15px;">Arrive: 12.00 PM</span>
+                     </td>
+                  </tr>
+                  <tr class="column-2">
+                    <td>
+                      <span>AI-202</span><br>
+                      <span>PNQ > DEL</span><br>
+                      <span>Depart: 10.00 AM</span><br>
+                      <span>Arrive: 12.00 PM</span>
+                    </td>
+                 </tr>
+                 <tr class="column-3">
+                   <td>
+                     <img style="height: 70px; width: 107px" src="book_flight.jpg" alt=""><br>
+                     <button type="button" name="button" >Book your flight</button>
+                   </td>
+                 </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript">
+
+  function oneWay(){
+  document.getElementById('hide').style.visibility = "hidden";
+  }
+  function returnWay(){
+   document.getElementById('hide').style.visibility = "visible";
+ }
+
+</script>
+
+</html>
