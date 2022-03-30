@@ -1,2 +1,2 @@
 # Web Page Projects
-Flight Search Engine web page buit by using HTML & CSS.
+Flight Search Engine web page built by using HTML & CSS.
